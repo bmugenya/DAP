@@ -1,0 +1,32 @@
+.chat_body {
+  flex: 1;
+  background-image: url('https://raw.githubusercontent.com/bmugenya/assets/main/bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+   background-size: cover;
+  padding: 10px;
+
+}
+
+
+.comment_message {
+
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.chat_time {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat_name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}

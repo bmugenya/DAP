@@ -1,0 +1,13 @@
+@font-face {
+    font-family: chuckFont;
+    src: url(04B_30__.TTF);
+}
+h3 {
+    color: #f15b23;
+    font-family: chuckFont;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 10px;
+    padding: 0;
+    text-shadow: 1px 1px #222;
+}
