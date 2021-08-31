@@ -1,13 +1,17 @@
-.chat_body {
-  flex: 1;
-  background-image: url('https://raw.githubusercontent.com/bmugenya/assets/main/bg.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-   background-size: cover;
-  padding: 10px;
 
+@font-face {
+    font-family: chuckFont;
+    src: url(04B_30__.TTF);
 }
-
+h3 {
+    color: #f15b23;
+    font-family: chuckFont;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 10px;
+    padding: 0;
+    text-shadow: 1px 1px #222;
+}
 
 .comment_message {
 
@@ -18,15 +22,4 @@
   background-color: #ffffff;
   margin-bottom: 30px;
   margin-left: 30px;
-}
-.chat_time {
-  margin-left: 10px;
-  font-size: xx-small;
-}
-
-.chat_name {
-  position: absolute;
-  top: -15px;
-  font-weight: 800;
-  font-size: xx-small;
 }

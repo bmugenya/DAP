@@ -34,9 +34,7 @@ const classes = useStyles();
     }
 
   return (
-    <div className='chat_body'>
-
-
+    <div>
  <FormControl  className={classes.formControl}>
   <InputLabel id="gory">Category</InputLabel>
         <Select
@@ -58,7 +56,7 @@ const classes = useStyles();
             className='comment_message'
             style={{ background: '#eff2f5' }}
           >
-           {gory}
+           <h3>{gory}</h3>
 
           </p>
 

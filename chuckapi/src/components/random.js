@@ -55,6 +55,7 @@ const classes = useStyles();
      <div className='chat_body' style={{ background: '#ffffff' }}>
       {posts.map((post) => (
         <>
+
           // <Avatar src={post.photo} />
           <p
             key={post.comment_id}

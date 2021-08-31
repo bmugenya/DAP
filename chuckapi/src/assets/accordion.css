@@ -1,28 +1,12 @@
-
-/* section */
 .section {
   width: 100%;
   margin: 0 auto;
   max-width: var(--max-width);
 }
 
-@media screen and (min-width: 992px) {
-  .section {
-    width: 95%;
-  }
-}
-
-/*
-=============== 
-Questions
-===============
-*/
-
 main {
-  /* using flex because of better browser support */
   justify-content: center;
   align-items: center;
-
   font: 16px/1.5 "Courier New", Arial, sans-serif;
 }
 
@@ -31,7 +15,7 @@ main img{
   width: 360px;
 }
 
-
+/* WIKI LEAKS  */
 .question header {
   display: flex;
   justify-content: space-between;

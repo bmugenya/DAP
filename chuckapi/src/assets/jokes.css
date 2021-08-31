@@ -1,0 +1,22 @@
+.chat_body {
+  font: 16px/1.5 "Courier New", Arial, sans-serif;
+}
+
+.chat_message,.chat_reciever {
+  font-size: 16px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.chat_reciever {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+.chat_time {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+
+
+

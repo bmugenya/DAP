@@ -12,10 +12,10 @@ export default function App() {
       <header className="body">
         <Accordion/>
         <Category fetchUrl={requests.fetchCategory} />
-         <Jokes fetchUrl={requests.fetchRandom}/>
-         <Jokes fetchUrl={requests.fetchRandom}/>
-         <Jokes fetchUrl={requests.fetchRandom}/>
-         <Jokes fetchUrl={requests.fetchRandom}/>
+         <Jokes fetchUrl={requests.fetchRandom} reciever={0} />
+         <Jokes fetchUrl={requests.fetchRandom} reciever={1}/>
+         <Jokes fetchUrl={requests.fetchRandom} reciever={0} />
+         <Jokes fetchUrl={requests.fetchRandom} reciever={1}/>
          <Footer/>
       </header>
     </div>
